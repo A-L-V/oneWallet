@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:autoSizeTextType="uniform"
+            android:text="saldo"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/txtSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:autoSizeTextType="uniform"
+            android:paddingVertical="@dimen/activity_horizontal_margin"
+            android:text="S/. 151.00"
+            android:textAlignment="center"
+            android:textAppearance="@style/Widget.MaterialComponents.TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnIngreso"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6CCF26"
+                android:text="Ingreso" />
+
+            <Button
+                android:id="@+id/btnGasto"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C32A2A"
+                android:text="Gasto" />
+
+            <Button
+                android:id="@+id/btnTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#1757C8"
+                android:text="Transferencia" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:autoSizeTextType="uniform"
+            android:text="Cuentas"
+            android:textAppearance="@style/Widget.MaterialComponents.TextView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recicleCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
