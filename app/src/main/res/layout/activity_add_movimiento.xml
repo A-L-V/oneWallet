@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CrudMovimiento">
-
+    tools:context=".AddMovimiento">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,12 +29,10 @@
             android:layout_height="wrap_content"
             android:text="tipo" />
 
-        <EditText
-            android:id="@+id/txtMovTipo"
+        <Spinner
+            android:id="@+id/spinnerMovTipo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/textView4"
@@ -63,28 +60,23 @@
             android:ems="10"
             android:inputType="numberDecimal" />
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="cuenta" />
 
-        <Spinner
-            android:id="@+id/spinnerCuenta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonAddMovimiento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             android:text="Agregar" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonRetornar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eliminar" />
+            android:onClick="irAddMovimiento"
+            android:text="Regresar" />
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

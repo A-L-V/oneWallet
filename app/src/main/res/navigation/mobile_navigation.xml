@@ -10,5 +10,15 @@
         android:name="com.example.onewallet.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/addCuenta"
+        android:name="com.example.onewallet.AddCuenta"
+        android:label="fragment_add_cuenta"
+        tools:layout="@layout/fragment_add_cuenta" />
+    <fragment
+        android:id="@+id/graficos"
+        android:name="com.example.onewallet.graficos"
+        android:label="fragment_graficos"
+        tools:layout="@layout/fragment_graficos" />
 
 </navigation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movimiento">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnIngreso"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6CCF26"
+                android:onClick="irAddMovimiento"
+                android:text="Ingreso" />
+
+            <Button
+                android:id="@+id/btnGasto"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C32A2A"
+                android:text="Gasto" />
+
+            <Button
+                android:id="@+id/btnTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#1757C8"
+                android:text="Transferencia" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recicleMovimientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ButtonToMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:onClick="returnToHome" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

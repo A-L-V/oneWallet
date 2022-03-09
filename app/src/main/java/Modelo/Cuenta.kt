@@ -3,6 +3,7 @@ package Modelo
 import java.io.Serializable
 
 class Cuenta: Serializable {
+    var id:Int=-1;
     var titulo: String=""
     var moneda: String=""
     var cantidad: Double=0.0

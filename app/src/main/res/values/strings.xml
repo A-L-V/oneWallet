@@ -20,4 +20,69 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_movimientos">ActivityMovimientos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_movimientos">MainMovimientos</string>
+
+
+    <string-array name="tipoMovimiento">
+        <item>banknote</item>
+        <item>diamond</item>
+        <item>location</item>
+        <item>phone</item>
+        <item>trash</item>
+        <item>bubble</item>
+        <item>display</item>
+        <item>lock</item>
+        <item>photo</item>
+        <item>truck</item>
+        <item>bulb</item>
+        <item>eye</item>
+        <item>mail</item>
+        <item>search</item>
+        <item>t-shirt</item>
+        <item>calendar@</item>
+        <item>fire</item>
+        <item>megaphone</item>
+        <item>settings</item>
+        <item>tv</item>
+        <item>camera</item>
+        <item>food</item>
+        <item>music</item>
+        <item>shop</item>
+        <item>user</item>
+        <item>clip</item>
+        <item>heart</item>
+        <item>news</item>
+        <item>sound</item>
+        <item>vallet</item>
+        <item>clock</item>
+        <item>key</item>
+        <item>note</item>
+        <item>stack</item>
+        <item>video</item>
+        <item>cloud</item>
+        <item>lab</item>
+        <item>paperplane</item>
+        <item>star</item>
+        <item>vynil</item>
+        <item>cup</item>
+        <item>like</item>
+        <item>params</item>
+        <item>study</item>
+        <item>world</item>
+        <item>data</item>
+        <item>lista</item>
+        <item>pen</item>
+        <item>tag</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

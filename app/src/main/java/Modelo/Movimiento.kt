@@ -1,6 +1,7 @@
 package Modelo
 import java.io.Serializable
 class Movimiento :Serializable{
+    var id:Int=0
     var titulo: String=""
     var tipo: String=""
     var nota: String=""
@@ -21,7 +22,10 @@ class Movimiento :Serializable{
         this.cantidad = cantidad
         this.cuenta = cuenta
     }
+    fun updateTotal(){
+            this.total =  this.cuenta!!.cantidad + this.cantidad
 
+    }
 
     constructor()
 
